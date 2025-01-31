@@ -6,7 +6,7 @@ networks:
 
 services:
   app:
-    image: intriin/mmdl:latest
+    image: TehSolider/mmdl:latest
     ports:
       - 3000:3000
     depends_on:
